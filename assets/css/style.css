@@ -1,5 +1,7 @@
 a {
         color:palevioletred (0, 0, 0, 0.87);
+        font-size: 20px;
+        font-family:'Arial Narrow', Arial, sans-serif; 
     }
     a.static-link {
         transition: all 0.3s;
@@ -7,16 +9,55 @@ a {
         border-bottom-style: dashed;
         border-bottom-color: initial;
         text-decoration: none;
-    
     }
 
+    #shadow {
+        border: 2px solid;
+        padding: 1px;
+        box-shadow: 5px 10px 18px light grey;
+      }
 
 
+#right {
+        padding-left: 180px;
+}
 
+#portfolio {
+        padding-left: 500px;
+}
 
+p {
+        font-family:'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+}
 
+.html {
+        background-color: lightpink;
+}
 
+#pad {
+        padding-left: 500px;
+}
 
+.html1 {
+        background-color:whitesmoke;
+}
 
+.bg {
+        background-color: whitesmoke;
+}
 
+#padding {
+        padding-left: 600px;
+}
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: palevioletred;
+        color: white;
+        text-align: center;
+     }
 
